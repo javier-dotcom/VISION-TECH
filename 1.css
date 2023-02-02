@@ -1,0 +1,182 @@
+body {
+    background-color: rgb(238, 209, 209)
+}
+
+.login {
+    border: black groove 3px;
+    height: 550px;
+    background-color: rgb(243, 236, 227);
+}
+
+.form {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 4%;
+}
+
+.vision {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgb(219, 206, 17);
+    border: black groove 3px;
+}
+
+.h2h5 {
+    text-align: center;
+}
+
+.h22 {
+    background-color: rgb(219, 206, 17);
+    border: black groove 3px;
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 7px;
+    width: 50%;
+    margin: auto;
+    margin-top: 15px;
+}
+
+.h23 {
+    background-color: rgb(219, 206, 17);
+    border: black groove 3px;
+    border-radius: 20px;
+    text-align: center;
+    width: 50%;
+    margin: 15px auto;
+}
+
+.h2 {
+    background-color: rgb(219, 206, 17);
+    width: 40%;
+    margin: auto;
+    padding: 4px;
+    border: black groove 3px;
+    border-radius: 20px;
+}
+
+.input {
+    background-color: darkgrey;
+    cursor: pointer;
+}
+
+.input:hover {
+    background-color: rgb(219, 206, 17);
+}
+
+.boton {
+    cursor: pointer;
+    text-align: center;
+    padding: 4px;
+    width: 90px;
+}
+
+.boton:hover {
+    background-color: rgb(197, 112, 8);
+    border-radius: 11px;
+}
+
+.aside {
+    text-align: center;
+    margin-left: 0%;
+    width: 150px;
+    background-color: chocolate;
+    padding: 5px;
+    border: black groove 3px;
+    height: 420px;
+}
+
+.todo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.inputt {
+    margin: 52px;
+    text-align: center;
+}
+
+.aco {
+    display: flex;
+    flex-direction: column;
+}
+
+.submit {
+    margin: auto;
+}
+
+.a {
+    border: 2px transparent groove;
+    background-color: chocolate;
+    text-decoration: none;
+    border-radius: 20px;
+    border: 2px transparent solid;
+    margin: 3px;
+    padding: 4px;
+}
+
+.a:hover {
+    background-color: rgb(238, 229, 223);
+    border-radius: 20px;
+    border: 2px rgb(243, 236, 227) solid;
+}
+
+.bus {
+    display: flex;
+    margin: auto;
+}
+
+.bus1 {
+    width: 250px;
+}
+
+.inicio {
+    border: 1px solid transparent;
+    border-radius: 30px;
+}
+
+.ht1 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 120px;
+}
+
+a {
+    text-decoration: none;
+}
+
+@media screen and (max-width:680px) {
+    .mostrar {
+        display: none;
+    }
+    .nomostrar {
+        color: red;
+    }
+}
+
+.dat {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/*borrar*/
+
+.b {
+    display: flex;
+    flex-direction: column;
+}
+
+.verti {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+}
+
+.ponele3 {
+    margin: auto;
+}

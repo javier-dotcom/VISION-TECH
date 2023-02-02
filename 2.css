@@ -1,0 +1,55 @@
+.secargo {
+    background-color: limegreen;
+    border-radius: 21px;
+    text-align: center;
+}
+
+.ubicar {
+    margin: auto;
+}
+
+.nosecargo {
+    background-color: red;
+    border-radius: 21px;
+    text-align: center;
+    margin: 20% auto;
+}
+
+.secargo3 {
+    background-color: limegreen;
+    border-radius: 21px;
+    text-align: center;
+    width: 90%;
+    margin: 10% auto;
+    padding: 10px;
+}
+
+.estiloinput {
+    text-align: center;
+    background-color: chocolate;
+    border: 4px rgb(219, 206, 17) solid;
+    padding: 3px;
+}
+
+.estiloinput:hover {
+    border: 3px black solid;
+    border-radius: 5px;
+    color: antiquewhite;
+    cursor: pointer;
+    padding: 4px;
+}
+
+.stock4 {
+    background-color: chocolate;
+    height: 30%;
+    margin: auto;
+    padding: 10px;
+    border: 4px rgb(219, 206, 17) solid;
+}
+
+.stock4 span {
+    background-color: whitesmoke;
+    padding: 4px;
+    border-radius: 3px;
+    border: 3px rgb(219, 206, 17) solid;
+}
